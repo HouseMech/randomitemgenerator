@@ -1,5 +1,5 @@
 class Item
-  #attr_reader :prefix, :weapon #Requires two attributes for an Item
+  attr_reader :prefix, :weapon #Requires two attributes for an Item
 
 
   PREFIXES = ["Hardy","Strong","Weak","Narrow"]

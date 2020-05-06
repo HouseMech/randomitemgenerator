@@ -1,2 +1,6 @@
 <h1>Random Item Generator</h1>
 <h3>A.K.A Lootbox creator
+
+<% for item in @items %>
+  <h3><%= item.description %></h3>
+<% end %>
